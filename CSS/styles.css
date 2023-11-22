@@ -1,0 +1,293 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* HEADER */
+
+/* bande blue header */
+
+#bande-blue {
+    display: flex;
+    background-color: #006ba6;
+    width: 100%;
+}
+
+#premier-bloc-bande-blue {
+    display: flex;
+    margin: 30px;
+    width: 30%;
+}
+
+#premier-bloc-bande-blue img {
+    width: 5%;
+}
+
+.numéro {
+    font-size: 20px;
+    color: white;
+}
+
+#deuxième-bloc-bande-blue {
+    display: flex;
+    margin: 30px;
+    width: 30%;
+}
+
+#deuxième-bloc-bande-blue img {
+    width: 5%;
+}
+
+#FAQ-RDV-Confirmation {
+    display: flex;
+    margin: 30px;
+    width: 30%;
+}
+
+/* petit-espace-blanc */
+
+#petit-espace-blanc{
+    display: flex;
+}
+
+#titre-sikiater{
+        display: flex;
+        padding-left: 50px;
+        height: 50px;
+        align-items: center;
+        padding-top: 30px;
+}
+
+#siki{
+    color: #0496ff;
+    font-size: 40px;
+}
+
+#ater{
+    color: #3589b8;
+    font-size: 40px;
+}
+
+#menu{
+    display: flex;
+    flex: 1;
+    height: 50px;
+    padding-left: 90px;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#menu ul{
+    display: flex;
+}
+
+#menu  li  {
+    list-style-type: none;
+    padding-left: 50px;
+}
+
+#menu  li a{
+    text-decoration: none;
+}
+
+#telephone{
+    display: flex;
+    
+}
+
+#telephone img{
+    width: 20px;
+}
+
+#telephone-boutton{
+    display: flex;
+    height: 50px;
+    padding-right: 80px;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#button{
+    padding-right: 80px;
+}
+
+#button button{
+    border: 6px solid;
+    border-radius: 30px;
+    background-color: #006ba6;
+    color: white;
+    font-size: 20px;
+}
+
+/* section content-image */
+
+#content-image {
+    background-image: url("../assets/back-image.jpg");
+    /* background-size: cover; */
+}
+
+#content-p1 {
+    color: #ffbc42;
+    padding-left: 50px;
+    padding-top: 150px;
+}
+
+#content-image h1 {
+    font-size: 80px;
+    color: white;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+#content-image h1 span{
+    color: #ffbc42;
+}
+
+#content-p3 {
+    color: white;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+
+#content-button{
+    display: flex;
+    column-gap: 50px;
+    
+}
+
+#content-button button{
+    border:20px solid orange ;
+    border-radius: 30px;
+    background-color: #ffbc42;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    padding-left: 50px;
+
+}
+
+#content-button {
+    font-size: 15px;
+    color: white;
+    
+}
+
+.pictures{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px ;
+    right: 10px;
+    border: 4px solid white;
+}
+
+#content-elevation-image{
+    display: flex;
+}
+
+#content-elevation h3{
+    font-size: 30px;
+    color: white;
+}
+
+#content-elevation h4{
+    font-size: 20px;
+    color: white;
+}
+
+/* section-gris */
+
+#section-gris{
+    display: flex;
+    background-color: #f9f9f9;
+}
+
+#section-gris h3{
+    color: #7f7f7f;
+    padding-left: 300px;
+    height: 100px;
+}
+
+#rectangle-blanc{
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 15px;
+    width: 5%;
+    text-align: right;
+    flex: 1;
+    padding-right: 100px;
+}
+
+#rectangle-blanc p{
+    font-size: 50px;
+    color: #006ba6;
+}
+
+#rectangle-blanc h4{
+    font-size: 20px;
+}
+
+/* section ce que nous faisons */
+
+#blog{
+    background-color: white;
+}
+#IMPORTANCE-SAINE{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+
+#titre-1-blog{
+    color: #006ba6;
+    text-align: center;
+}
+
+.titre-1-blog{
+    color: #006ba6;
+    text-align: center;
+}
+
+.image-blog img {
+    border: 1px solid grey ;
+    border-radius: 20px;
+    width: 400px;
+}
+
+#blog-image{
+    display: flex;
+}
+
+.image-blog{
+    flex: 1;
+}
+
+.blog-commentaire-image{
+    position: relative;
+    margin-left: 60px;
+    bottom: 100px;
+    border:1px solid white ;
+    background-color: white;
+    border-radius: 20px;
+    width: 300px;
+    padding-bottom: 30px;   
+}
+
+.PLANNIFICATIONS{
+    text-align: center;
+}
+
+.bouton{
+    border: 20px solid #0496ff;
+    border-radius: 20px;
+    margin-left: 25px;
+    background-color: #0496ff;
+    width: 200px;
+    height: 80px;
+}
+
+
+
+
